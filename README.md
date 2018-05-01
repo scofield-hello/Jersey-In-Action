@@ -32,11 +32,11 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-webapp -Darchetyp
 
 ```xml
 <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.3.5.v20151012</version>
-            </plugin>
-```xml
+	<groupId>org.eclipse.jetty</groupId>
+	<artifactId>jetty-maven-plugin</artifactId>
+	<version>9.3.5.v20151012</version>
+</plugin>
+```
 
 2. 执行 mvn jetty:run
 
